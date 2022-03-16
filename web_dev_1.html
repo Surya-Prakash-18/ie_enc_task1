@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+        <div id="container">
+            <div class="centre">
+                <h1>Employee Interests Survey Form</h1>
+            </div>
+            <form id="form">
+                <t>Enter your Name</t>
+                    <div style = "position:relative; left:190px; top:5px;">
+                            <label for="Name"></label>
+                            <input type="text" class="resizedTextbox" style="padding: 5px;"><br>
+                        <br>
+                    </div>
+                <t>Enter your Department</t>
+                    <div style = "position:relative; left:190px; top:5px;">
+                            <label for="Email"></label>
+                            <input type="text" class="resizedTextbox" style="padding: 5px;"><br>
+                    </div>
+                    <br>
+                <t>Tell us about yourself</t>
+                    <div style = "position:relative; left:190px; top:5px;">
+                        <label for="message"></label>
+                        <textarea style="padding: 10px;" rows="5" cols="51"></textarea>
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <t>Do you Exercise at home?</t>
+                        <input type="radio" id="Choice1" name="contact" value="yes">
+                        <label for="contactChoice1">Yes</label>
+                        <input type="radio" id="Choice2"name="contact" value="no">
+                        <label for="contactChoice2">No</label>
+                        <br>
+                        <br>
+                        <t>How do you like to read about your favorite topics?</t>
+                        <br>
+                        <br>
+                            <input type="checkbox">
+                            <label for="terms">Books</label>
+                            <input type="checkbox">
+                            <label for="terms">Online resources</label>
+                            <input type="checkbox">
+                            <label for="terms">Phone Apps</label>
+                            <input type="checkbox">
+                            <label for="terms">Magazines</label>
+                    </div>
+                    <br>
+                    <label for="cars">What Genre do you like?</label>
+                        <select name="cars" id="cars">
+                            <option value="volvo">Comedy</option>
+                            <option value="saab">Fiction</option>
+                            <option value="mercedes">Romance</option>
+                            <option value="audi">Thriller</option>
+                        </select>
+                    <br>
+                    <br>
+                    <button>SUBMIT FORM</button>
+                </form>
+        </div>
+</body>
+</html>
